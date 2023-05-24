@@ -19,8 +19,8 @@ app.post('/send-email', express.json(), (req, res) => {
 
   // Параметры письма
   const mailOptions = {
-    from: 'YOUR_EMAIL@gmail.com', // Замените на вашу Gmail почту
-    to: 'YOUR_DESTINATION_EMAIL@gmail.com', // Замените на адрес, на который вы хотите получать номера телефонов
+    from: 'm.rudenkov115@gmail.com', // Замените на вашу Gmail почту
+    to: 'm.rudenkov115@gmail.com', // Замените на адрес, на который вы хотите получать номера телефонов
     subject: 'Новый номер телефона',
     text: `Номер телефона: ${phoneNumber}`
   };
